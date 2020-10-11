@@ -8,19 +8,6 @@
 .text 
 
 main:
-	#...
-	#...
-
-	#----------------------------------------------------------------#
-	# Write code here to do exactly what main does in the C program.
-	#
-	# Please follow these guidelines:
-	#
-	#	Use syscall 5 each time to read an integer (scanf("%d", ...))
-	#	Then call NchooseK to compute the function
-	#	Then use syscall 1 to print the result
-	#   Put all of the above inside a loop
-	#----------------------------------------------------------------#
 	
 				# Read in N
     	addi $v0, $0, 5			# system call 5 is for reading an integer
